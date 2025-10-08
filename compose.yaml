@@ -1,0 +1,6 @@
+# compose.yaml
+services:
+  secdemo:
+    image: myorg/sec-demo:0.0.1
+    ports:
+      - "9090:80"   # host:container
